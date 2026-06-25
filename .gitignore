@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Generated output (recreated by running notebooks)
+output/
+
+# Excel source files
+*.xlsx
+
+# Archive
+archive/
+
+# Intermediate data folders (recreated by running 01_data_cleaning.ipynb)
+data/new_data/
+data/new_data_cleaned/
+data/new_data_filled_cleaned/
+data/all_data_filled_cleaned/
+data/all_data_cleaned_gender/
+data/all_data_cleaned_gender_role/
